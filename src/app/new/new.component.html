@@ -1,0 +1,19 @@
+<h1>Product Manager</h1>
+<div id='newproduct'>
+<h1>New Product</h1>
+<form (submit)="addProduct()">
+Name: <input type='text' name="product.name"[(ngModel)]="product.name">
+<br>
+<br>
+Qty: <input type='number' name="product.quantity"[(ngModel)]="product.quantity">
+<br>
+<br>
+Price: <input type='number' name="product.price"[(ngModel)]="product.price">
+<br>
+<br>
+<button><a [routerLink]="['/']">Reset</a></button>
+<input type='submit' id='create' value="Create">
+<br>
+</form>
+<p *ngFor="let e of errors">{{e}}</p>
+</div>

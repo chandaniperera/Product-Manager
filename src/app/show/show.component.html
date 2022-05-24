@@ -1,0 +1,16 @@
+<h1>Product Manager</h1>
+<div id='productdetails'>
+<h1>Product Details</h1>
+<br>
+<br>
+Name: {{product.name}}
+<br>
+<br>
+Qty: {{product.quantity}}
+<br>
+<br>
+Price: ${{product.price}}.00
+<br>
+<br>
+<button><a [routerLink]="['/']">Back</a></button><button id='delete'(click)="deleteProduct(product._id)">Delete</button>
+</div>

@@ -1,0 +1,35 @@
+#container{
+    border:solid rgb(155, 27, 27) 4px;
+    padding:15px;
+    align-content: center;
+    width:500px;
+    margin-left: 500px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    background-color: rgb(182, 203, 204);
+}
+
+h1{
+    text-align: center;
+    color: darkred;
+}
+
+button{
+    background-color: darkcyan;
+    border-radius: 50%;
+    border-color: darkred;
+} 
+#edit{
+    border-radius: 7px;
+    background-color:#d3d3d3e8;
+}
+
+#delete{
+    border-radius: 7px;
+    background-color:#d3d3d3;
+}
+
+table {
+    width: 100%;
+}
